@@ -62,7 +62,7 @@ const int FanSpeedTrimmer   = A2;
 const int Led_PT1000_Read   = 13;
 
 const char degreeC [3] = {0x01, 'C', 0x00}; //° je na displeji v setup() uložený na pozícii 0x01h
-const int noSensorIndicator = 345;  //hodnota odveci, ktorá sa berie, že teplota nebola načítaná (odpojený senzor)
+const int noSensorIndicator = 3450; //hodnota odveci, ktorá sa berie, že teplota nebola načítaná (odpojený senzor)
 unsigned long lastPress = 0;        //čas posledného stlačenia tlačítka
 unsigned long lastMeasure = 0;      //čas posledného merania a následného vyhodnocovania
 bool memWriteRequest = false;       //bola zmena údajov, uloženie po vyskočení z menu    
